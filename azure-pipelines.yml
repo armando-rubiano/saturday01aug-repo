@@ -20,6 +20,6 @@ steps:
     location: 'Australia Central'
     templateLocation: 'Linked artifact'
     csmFile: 'CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName Sat01 -linkedTemplateUri https://raw.githubusercontent.com/armando-rubiano/saturday01aug-repo/master/CreateWebApp/linkedStorageAccount.json'
+    overrideParameters: '-projectName tue -linkedTemplateUri https://raw.githubusercontent.com/armando-rubiano/saturday01aug-repo/master/CreateWebApp/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
